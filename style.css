@@ -35,7 +35,7 @@ body {
   margin: 150px 0;
   /* color: var(--Very-light-gray); */
   border-radius: 10px;
-  /* height: 450px; */
+  height: 470px;
 }
 
 /* ================MEDIA QUERY FOR MAIN CON (500px to 0px)====================== */
@@ -70,6 +70,7 @@ p {
   padding: 40px;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
+  
 }
 
 .sedans_con h2 {
@@ -101,6 +102,7 @@ p {
   background-color: var(--Bright-orange);
   border: 2px solid white;
   color: var(--Very-light-gray);
+  font-weight: 700;
 }
 
 /* ================MEDIA QUERY FOR SEDANS (500px TO 0px)====================== */
@@ -132,6 +134,7 @@ p {
   max-width: 300px;
   background-color: var(--Dark-cyan);
   padding: 40px;
+ 
 }
 
 .suvs_con h2 {
@@ -163,6 +166,7 @@ p {
   background-color: var(--Dark-cyan);
   border: 2px solid white;
   color: var(--Very-light-gray);
+  font-weight: 700;
 }
 
 /* ================MEDIA QUERY FOR SUVS (500px TO 0px)====================== */
@@ -194,6 +198,7 @@ p {
   padding: 40px;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
+ 
 }
 
 .luxury_con h2 {
@@ -225,6 +230,7 @@ p {
   background-color: var(--Very-dark-cyan);
   border: 2px solid white;
   color: var(--Very-light-gray);
+  font-weight: 700;
 }
 
 /* ================MEDIA QUERY FOR LUXURY(500px to 0px)====================== */
