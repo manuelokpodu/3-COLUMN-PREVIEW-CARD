@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* ### Primary */
+
+  --Bright-orange: hsl(31, 77%, 52%);
+  --Dark-cyan: hsl(184, 100%, 22%);
+  --Very-dark-cyan: hsl(179, 100%, 13%);
+
+  /* ### Neutral */
+
+  --Transparent-white: hsla(0, 0%, 100%, 0.75);
+  --Very-light-gray: hsl(0, 0%, 95%);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: var(--Very-light-gray);
+  /* max-width: 1440px; */
+}
+
+.main_con {
+  /* border: 2px solid red; */
+  max-width: 900px;
+  display: flex;
+  margin: 150px 0;
+  /* color: var(--Very-light-gray); */
+  border-radius: 10px;
+  /* height: 450px; */
+}
+
+/* ================MEDIA QUERY FOR MAIN CON (500px to 0px)====================== */
+
+@media (max-width: 500px) {
+  .main_con {
+    flex-direction: column;
+    margin: 60px 0;
+  }
+}
+
+h2 {
+  font-size: 40px;
+  font-family: "Big Shoulders Display", sans-serif;
+  font-weight: 700;
+  color: var(--Very-light-gray);
+}
+
+p {
+  font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  color: var(--Transparent-white);
+}
+
+/* ===============SEDANS======================== */
+
+.sedans_con {
+  /* border: 2px solid green; */
+  max-width: 300px;
+  background-color: var(--Bright-orange);
+  padding: 40px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.sedans_con h2 {
+  margin: 30px 0;
+}
+
+.sedans_con p {
+  padding-right: 20px;
+  line-height: 23px;
+}
+
+.sedans_con div {
+  margin-top: 70px;
+}
+
+.sedans_con div button {
+  border: none;
+  font-size: 15px;
+  color: var(--Bright-orange);
+  padding: 15px 30px;
+  border-radius: 30px;
+  font-weight: 700;
+  font-family: "Lexend Deca", sans-serif;
+  cursor: pointer;
+  background-color: var(--Very-light-gray);
+}
+
+.sedans_con div button:hover {
+  background-color: var(--Bright-orange);
+  border: 2px solid white;
+  color: var(--Very-light-gray);
+}
+
+/* ================MEDIA QUERY FOR SEDANS (500px TO 0px)====================== */
+
+@media (max-width: 500px) {
+  .sedans_con {
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+  }
+
+  .sedans_con p {
+    font-size: 14px;
+    padding-right: 0px;
+  }
+
+  .sedans_con div {
+    margin-top: 30px;
+  }
+
+  .sedans_con div button {
+    font-size: 14px;
+  }
+}
+
+/* ===================SUVS=========================== */
+
+.suvs_con {
+  /* border: 2px solid yellow; */
+  max-width: 300px;
+  background-color: var(--Dark-cyan);
+  padding: 40px;
+}
+
+.suvs_con h2 {
+  margin: 30px 0;
+}
+
+.suvs_con p {
+  padding-right: 8px;
+  line-height: 23px;
+}
+
+.suvs_con div {
+  margin-top: 70px;
+}
+
+.suvs_con div button {
+  border: none;
+  font-size: 15px;
+  color: var(--Dark-cyan);
+  padding: 15px 30px;
+  border-radius: 30px;
+  font-weight: 700;
+  font-family: "Lexend Deca", sans-serif;
+  cursor: pointer;
+  background-color: var(--Very-light-gray);
+}
+
+.suvs_con div button:hover {
+  background-color: var(--Dark-cyan);
+  border: 2px solid white;
+  color: var(--Very-light-gray);
+}
+
+/* ================MEDIA QUERY FOR SUVS (500px TO 0px)====================== */
+
+@media (max-width: 500px) {
+
+  .suvs_con p {
+    font-size: 14px;
+    padding-right: 0px;
+  }
+  
+  .suvs_con div {
+    margin-top: 30px;
+  }
+  
+  .suvs_con div button {
+    font-size: 14px;
+  }
+  
+
+}
+
+/* =====================LUXURY========================== */
+
+.luxury_con {
+  /* border: 2px solid purple; */
+  max-width: 300px;
+  background-color: var(--Very-dark-cyan);
+  padding: 40px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.luxury_con h2 {
+  margin: 30px 0;
+}
+
+.luxury_con p {
+  padding-right: 0px;
+  line-height: 23px;
+}
+
+.luxury_con div {
+  margin-top: 70px;
+}
+
+.luxury_con div button {
+  border: none;
+  font-size: 15px;
+  color: var(--Very-dark-cyan);
+  padding: 15px 30px;
+  border-radius: 30px;
+  font-weight: 700;
+  font-family: "Lexend Deca", sans-serif;
+  cursor: pointer;
+  background-color: var(--Very-light-gray);
+}
+
+.luxury_con div button:hover {
+  background-color: var(--Very-dark-cyan);
+  border: 2px solid white;
+  color: var(--Very-light-gray);
+}
+
+/* ================MEDIA QUERY FOR LUXURY(500px to 0px)====================== */
+
+@media (max-width: 500px) {
+  .luxury_con {
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 10px;
+  }
+
+  .luxury_con p {
+    font-size: 14px;
+    padding-right: 0px;
+  }
+
+  .luxury_con div {
+    margin-top: 30px;
+  }
+
+  .luxury_con div button {
+    font-size: 14px;
+  }
+}
